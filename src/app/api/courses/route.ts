@@ -15,6 +15,6 @@ export async function POST(request: any) {
 		level,
 		link,
 	};
-	courses.push(newCourse);
+	// courses.push(newCourse);
 	return NextResponse.json(courses);
 }
