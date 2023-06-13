@@ -43,7 +43,7 @@ import React, { useEffect, useState } from 'react';
 import { FaCodeBranch, FaEye, FaStar } from 'react-icons/fa';
 
 const Repo = ({ name }: { name: string }) => {
-	const [repo, setRepo] = useState(null);
+	const [repo, setRepo] = useState<any>(null);
 
 	useEffect(() => {
 		const fetchRepo = async () => {

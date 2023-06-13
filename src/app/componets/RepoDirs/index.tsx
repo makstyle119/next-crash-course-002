@@ -39,7 +39,7 @@ import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
 const RepoDirs = ({ name }: { name: string }) => {
-	const [repoDirs, setRepoDirs] = useState([]);
+	const [repoDirs, setRepoDirs] = useState<any>([]);
 
 	useEffect(() => {
 		const fetchRepoDirs = async () => {
